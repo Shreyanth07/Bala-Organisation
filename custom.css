@@ -1,0 +1,389 @@
+/* Custom CSS */
+html{
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    padding-top: 3.5rem;
+        }
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+        }
+/* Navbar */
+
+.bg-dark {
+    background-color: crimson!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+/* Carousel */
+
+.carousel-caption {
+    padding-bottom: 12%;
+}
+
+.carousel-caption h3 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 24px;
+    color: crimson;
+}
+
+/* Buttons */
+
+.btn-info {
+    background-color:crimson;
+    padding: 1rem 4rem;
+    border:3px solid transparent;
+    width: 225px;
+}
+
+.btn-info:hover {
+    background-color:transparent;
+    border:3px solid crimson;
+    color: crimson;
+}
+
+.btn-info:active {
+    background-color:transparent !important;
+    border:3px solid crimson!important;
+    color: crimson!important;
+}
+
+/* Specials */
+
+.specials {
+    background: #2b2b2b;
+    padding: 50px 20px;
+}
+.specials h2 {
+    color:#fff;
+}
+
+/* Team */
+
+#team {
+    padding: 50px 10px;
+    background: linear-gradient(crimson, #19a4ba);
+}
+
+
+/* Video Background */
+
+.wclb {
+    padding-top: 300px;
+}
+
+
+/* Menu */
+
+#menu {
+    padding: 50px 10px;
+}
+
+.card {
+    box-shadow: 2px 5px 20px #777;
+}
+
+.modal-content {
+    background:crimson;
+}
+
+.mn {
+    color:#fff;
+}
+
+/* Parallax */
+
+#plx {
+    background: url(img/cover.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wtitle {
+    padding: 150px 20px;    
+}
+
+.wtitle h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Schools List */
+
+#schools {
+    background:crimson;
+    padding:100px 20px;
+}
+
+.wlt {
+    padding-bottom:50px;
+}
+
+/* Jumbotron */
+
+#jumbo {
+    background:#e9ecef;
+}
+
+/* Overlay */
+
+.ovl {
+    opacity: 0;
+    transition: 1s;
+}
+
+.ovl:hover {
+    opacity: 1;
+    background: rgb(0,0,0,0.6);
+}
+
+/* Locations */
+
+#locations {
+    padding: 100px 50px;
+    background: url(img/world.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loc img {
+    margin-right:10px;
+    transition-duration: 1.5s;
+    
+    
+}
+
+.loc img:hover {
+    transform:scale(3,3);
+    box-shadow: 5px 5px 15px #333;
+    z-index: 1;
+    position: absolute;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background:#2b2b2b;
+}
+
+.revs {
+    padding: 100px;
+}
+
+.carousel-item.active {
+    border:none;
+}
+
+.carousel-inner {
+    min-height:300px;
+}
+
+/* Video Section */
+
+#vid {
+    padding:100px 0px;
+    background: #111;
+}
+
+/* Hiring */
+
+.jumbotron {    
+    margin-bottom: 0; 
+}
+
+.hir h1 {
+    text-shadow: 5px 5px 10px #555;  
+ 
+}
+
+/* Pop Up Box */
+
+.pop-box {
+    width:300px;
+    box-shadow:5px 10px 25px #555;
+    position: fixed;
+    z-index: 9999;
+    right: -300px;
+    bottom: 15%;
+    transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+}
+
+.pop {
+    width: 370px;
+    background:crimson;
+    padding-top: 7px;
+    padding-left: 7px;
+    margin-left: -53px;
+    margin-top: -2px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 25px #555;
+}
+
+.pop img {
+    padding-right:60px;
+}
+
+.pop-box:hover {
+    right: 0px;/* Footer */
+}
+
+/* Number Counter */
+
+#numbers {
+    background:crimson;
+    padding:100px 0px;
+}
+.numc {    
+    background: #fff;
+    height: 150px;
+    width: 150px;
+    padding-top: 50px;
+    border-radius: 50%;
+    font-size:40px;
+    color:crimson;
+}
+.numd {
+    padding-top: 30px;
+}
+
+/* Contact */
+
+#contact {
+    padding:100px 0;
+    box-shadow:5px 10px 25px #555;
+    position:relative;
+    z-index:22;
+}
+.cbtn {
+    margin-top: 57px;
+}
+
+
+/* Footer */
+
+#footer {
+    background:#333;
+    padding: 10px;
+}
+
+.cpt {
+    padding-top: 29px;
+}
+
+.ftaw i {
+    font-size: 50px;
+    color: crimson;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+/* Back To top */
+
+.btt {
+    display:none;
+    background: crimson;
+    width: 65px;
+    position: fixed;
+    right: -12px;
+    bottom: 19px;
+    z-index: 9998;
+    border: 2px solid #fff;
+    border-radius: 10px;    
+}
+
+.btt:hover {
+    background: crimson;
+    box-shadow: 5px 10px 25px #555;
+}
+
+.btt i {
+    color: #ffffff7a;
+    font-size: 45px;
+    padding: 7px;
+}
+
+.btt i:hover {
+    color:#fff;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+  display:block;  
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:991px) {
+    .blogo {
+        text-align:center;
+    }   
+}
+
+
+@media only screen and (max-width:1500px) {
+    .carousel-caption {
+        padding-bottom: 8%;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .carousel-caption h3 {
+        font-size: 32px;
+    }
+    .carousel-caption p {
+        font-size: 18px;
+    }    
+}
+
+@media only screen and (max-width:991px) {
+    .carousel-caption p {
+        display:none;
+    }   
+}
+
+@media only screen and (max-width:767px) {
+    .carousel-caption h3 {
+        font-size: 24px;
+    }
+    .carousel-caption {
+        padding-bottom: 6%;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #carouselFull {
+        display:none;
+    }
+    #about {
+        margin-top: 80px;
+    }
+}
